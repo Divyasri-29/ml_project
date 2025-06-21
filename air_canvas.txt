@@ -1,0 +1,18 @@
+AIR CANVAS PROJECT:-
+----------------------
+cv2 :- cv2 is a library provided by OpenCV (Open Source Computer Vision Library) used for computer vision tasks such as image processing, video capture, and machine learning. OpenCV is written in C/C++, but the cv2 module is a Python binding that allows you to use OpenCV functionality in Python programs.
+
+OpenCV :- OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. It provides a wide range of tools and functions for real-time computer vision tasks, including image processing, video analysis, and object detection. OpenCV supports multiple programming languages like C++, Python, Java, and others, making it versatile for developers.
+
+numpy :- numpy is a powerful library in Python, widely used for numerical and scientific computing. The module numpy provides support for large, multi-dimensional arrays and matrices, along with a wide variety of mathematical functions to operate on these arrays.
+
+mediapipe :- mediapipe is a powerful framework developed by Google that provides cross-platform, customizable machine learning solutions for computer vision tasks. It is widely used for tasks like hand tracking, face detection, body pose estimation, and more, using machine learning models. The library is optimized to work efficiently on devices like mobile phones, desktops, and even web browsers.
+
+from collections import deque :- In an Air Canvas project, a deque from the collections module can be used to store and manage points that represent the path drawn by the user's hand in real-time. In such projects, hand or finger tracking (often done with libraries like MediaPipe) is used to detect the position of the hand, and these positions are used to draw on the screen.
+
+DIFFERENCE B/W MEDIAPIPE AND OPENCV :-
+----------------------------------------
+MediaPipe is high-level, focusing on specific machine learning applications like hand/pose detection, face mesh, etc. It provides pre-trained models that are easy to use for common vision tasks. It's a great choice for developers who need ready-made, cross-platform solutions for specific tasks without delving into algorithm development.
+
+OpenCV is low-level, allowing detailed control over image and video processing operations. It doesn't come with pre-built machine learning models but can be used with external libraries (like TensorFlow, PyTorch) to build more custom pipelines. It's ideal for those who need flexibility and are working on a variety of custom computer vision applications.
+
